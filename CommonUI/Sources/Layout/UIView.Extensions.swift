@@ -114,8 +114,8 @@ public extension UIView {
         let directionalInsets = NSDirectionalEdgeInsets(
             top: insets.top,
             leading: insets.left,
-            bottom: insets.bottom,
-            trailing: insets.right
+            bottom: -insets.bottom,
+            trailing: -insets.right
         )
         
         let (leading, trailing, top, bottom): (CGFloat, CGFloat, CGFloat, CGFloat) = (

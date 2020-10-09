@@ -15,7 +15,7 @@
 		5CE704392530FD0F00521119 /* StackView.Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE704382530FD0F00521119 /* StackView.Extensions.swift */; };
 		5CE7043E2530FE0500521119 /* UIView.Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7043D2530FE0500521119 /* UIView.Extensions.swift */; };
 		5CE704472530FE6100521119 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE704462530FE6100521119 /* Layout.swift */; };
-		5CE7044B2531005300521119 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7044A2531005300521119 /* Configure.swift */; };
+		5CE7044B2531005300521119 /* Makeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7044A2531005300521119 /* Makeable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,7 @@
 		5CE704382530FD0F00521119 /* StackView.Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.Extensions.swift; sourceTree = "<group>"; };
 		5CE7043D2530FE0500521119 /* UIView.Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.Extensions.swift; sourceTree = "<group>"; };
 		5CE704462530FE6100521119 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
-		5CE7044A2531005300521119 /* Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
+		5CE7044A2531005300521119 /* Makeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Makeable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				5CE7043C2530FDE600521119 /* Extensions */,
 				5CE7042E2530FBBB00521119 /* View.swift */,
 				5CE704342530FCA300521119 /* ViewController.swift */,
-				5CE7044A2531005300521119 /* Configure.swift */,
+				5CE7044A2531005300521119 /* Makeable.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -239,7 +239,7 @@
 			files = (
 				5CE7043E2530FE0500521119 /* UIView.Extensions.swift in Sources */,
 				5CE704352530FCA300521119 /* ViewController.swift in Sources */,
-				5CE7044B2531005300521119 /* Configure.swift in Sources */,
+				5CE7044B2531005300521119 /* Makeable.swift in Sources */,
 				5CE704472530FE6100521119 /* Layout.swift in Sources */,
 				5CE7042F2530FBBB00521119 /* View.swift in Sources */,
 				5CE704392530FD0F00521119 /* StackView.Extensions.swift in Sources */,
@@ -404,6 +404,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ltdr.CommonUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -432,6 +433,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ltdr.CommonUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
